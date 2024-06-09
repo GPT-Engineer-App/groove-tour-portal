@@ -11,7 +11,7 @@ const Index = () => {
           <Image src="/path/to/your/image.jpg" alt="Band Image" objectFit="cover" borderRadius="md" />
         </Box>
         <Button colorScheme="teal" size="lg">Get Tickets</Button>
-        <Button colorScheme="red" size="lg">Mislav</Button>
+        <Button as="a" href="https://www.youtube.com" target="_blank" colorScheme="red" size="lg">Mislav</Button>
         <HStack spacing={4}>
           <Button as="a" href="https://facebook.com" target="_blank" leftIcon={<FaFacebook />} colorScheme="facebook">
             Facebook
